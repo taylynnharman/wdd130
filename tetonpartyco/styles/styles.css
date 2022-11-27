@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Oswald&family=Shadows+Into+Light+Two&display=swap");
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+header {
+  background-color: #f4acb7;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+.home-title {
+  color: #f4fffd;
+  font-family: Amatic SC, PT Serif, Lato;
+  font-size: 4em;
+  margin-top: 30px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 35px;
+}
+nav a {
+  margin: 0 auto;
+  text-align: center;
+  color: #f4fffd;
+  text-decoration: none;
+  padding: 10px;
+  justify-content: center;
+  font-size: 1.5em;
+}
+nav a:hover {
+  background-color: #f4fffd;
+  color: #f6cc5d;
+}
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: 100px;
+}
+#hero-img {
+  width: 100%;
+  grid-row: 2/3;
+}
+#welcome {
+  text-align: center;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 25px;
+  color: #e55f5c;
+  font-family: Lato, Verdana, Helvetica;
+  font-size: 1em;
+}
+.review {
+  background: #e55f5c;
+  color: #ffffff;
+  font-family: "Oswald", Verdana, sans-serif;
+  text-align: center;
+}
+.review-p {
+  color: ;
+}
+footer {
+  background-color: #e6972b;
+  color: #f4fffd;
+  font-size: 1.2em;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile {
+  height: 350px;
+  border-radius: 50%;
+}
+#aboutme {
+  grid-template-columns: 1fr 3fr;
+}
+.bio {
+  grid-column: 2/3;
+}
+.logo {
+  width: 100px;
+  padding-top: 5px;
+}
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+xs @media screen and (max-width: 900px) {
+  #hero,
+  .home-grid {
+    display: block;
+    height: auto;
+  }
+  nav,
+  footer {
+    flex-direction: column;
+  }
+  nav a {
+    display: block;
+    padding: 15px;
+  }
+  #hero {
+    margin-top: 0;
+  }
+  #hero-msg {
+    margin-top: 0;
+  }
+  #hero-msg h4 {
+    display: none;
+  }
+  footer {
+    margin-top: 25px;
+  }
+}

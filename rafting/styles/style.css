@@ -242,7 +242,7 @@ nav {
   font-family: "Shadows Into Light Two", Verdana, sans-serif;
   color: black;
   font-size: 1.5em;
-  grid-column: 1px / 3px;
+  grid-column: /3;
   grid-row: 1/2;
 }
 

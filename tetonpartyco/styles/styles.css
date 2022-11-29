@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Oswald&family=Shadows+Into+Light+Two&display=swap");
 #content {
   max-width: 1600px;
-  margin: 0 auto;
+  margin: 1 auto;
 }
 .home-grid {
   display: grid;

@@ -4,10 +4,9 @@
   margin: 0 auto;
 }
 nav a {
-  text-align: center;
   color: #f4fffd;
   text-decoration: none;
-  padding: 35px;
+  padding-bottom: 15px;
 }
 #hero {
   display: grid;
